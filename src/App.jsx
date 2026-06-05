@@ -5,6 +5,16 @@ import CursorTrail from './components/cursor/CursorTrail';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer';
 
+// Sections
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Education from './components/sections/Education';
+import Leadership from './components/sections/Leadership';
+import Certifications from './components/sections/Certifications';
+import Projects from './components/sections/Projects';
+import Skills from './components/sections/Skills';
+import Contact from './components/sections/Contact';
+
 function App() {
   return (
     <ThemeProvider>
@@ -18,15 +28,15 @@ function App() {
       <div className="min-h-screen flex flex-col" style={{ position: 'relative', zIndex: 1 }}>
         <Navbar />
 
-        <main className="flex-1 pt-20">
-          <div className="section-container text-center mt-20">
-            <h1 className="font-syne font-bold text-4xl mb-4 gradient-text animate-fade-up delay-100">
-              Phase 3 — Custom Cursor ✓
-            </h1>
-            <p className="text-lg animate-fade-up delay-200" style={{ color: 'var(--muted)' }}>
-              Move your mouse to see the glowing cursor + trail.
-            </p>
-          </div>
+        <main className="flex-1">
+          <Hero />
+          <About />
+          <Education />
+          <Leadership />
+          <Certifications />
+          <Projects />
+          <Skills />
+          <Contact />
         </main>
 
         <Footer />
