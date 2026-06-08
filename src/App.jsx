@@ -14,6 +14,7 @@ import Certifications from './components/sections/Certifications';
 import Projects from './components/sections/Projects';
 import Skills from './components/sections/Skills';
 import Contact from './components/sections/Contact';
+import GitHubSnake from './components/sections/GitHubSnake';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Certifications />
           <Projects />
           <Skills />
+          <GitHubSnake />
           <Contact />
         </main>
 

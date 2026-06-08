@@ -16,10 +16,10 @@ const Leadership = () => {
 
         <RevealWrapper delay={150}>
           <TimelineItem
-            date="2024"
-            title="National Hackathon — 1st Place"
-            subtitle="Pataños — Pothole Reporting App"
-            description="Led a team to build a mobile application for reporting road hazards in under 24 hours. The app featured real-time GPS mapping, photo uploads, and a community-driven prioritization system. Awarded 1st place among national-level participants."
+            date="2026"
+            title="Top 5 Finalist — Naga City 1st Mayoral Hackaton"
+            subtitle="IskulAid — Smart Scholarship Matching App"
+            description="Developed a smart scholarship matching platform that uses AI to connect deserving students with relevant funding opportunities. The system analyzes academic profiles and personal circumstances to recommend scholarships, streamlining the application process for students and improving scholarship utilization for institutions."
             isLast={true}
           />
         </RevealWrapper>
